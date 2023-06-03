@@ -1,0 +1,79 @@
+{
+  "_id": {
+    "$oid": "647a69b00c69bee4c44360a3"
+  },
+  "headers": {
+    "Accept": "application/json",
+    "X-API-Token": "cde9221c26228df47dd31022ce6ad090259c92e7"
+  },
+  "invalid_token": {
+    "Accept": "application/json",
+    "X-API-Token": "cde9221c26228df47dd31022ce6ad09025912345"
+  },
+  "unexist_token": {
+    "Accept": "application/json",
+    "X-API-Token": ""
+  },
+  "test_1": {
+    "expected": "deison.navarro-gmail.com"
+  },
+  "test_2": {
+    "expected": 401
+  },
+  "test_3": {
+    "expected": 401
+  },
+  "test_4": {
+    "payload": {
+      "udid": "0001",
+      "model": "Laptop",
+      "os_build": "11.0.0",
+      "os_version": "11.1.2",
+      "serial": "a1b2c3",
+      "imei": "987654",
+      "owner_id": "100"
+    },
+    "expected": "Laptop"
+  },
+  "test_5": {
+    "payload": {},
+    "expected": 401
+  },
+  "test_6": {
+    "payload": {},
+    "expected": 401
+  },
+  "test_7": {
+    "expected": "0001"
+  },
+  "test_8": {
+    "expected": 401
+  },
+  "test_9": {
+    "expected": 401
+  },
+  "test_10": {
+    "expected": "Laptop"
+  },
+  "test_11": {
+    "expected": 401
+  },
+  "test_12": {
+    "expected": 401
+  },
+  "test_13": {
+    "payload": {
+      "display_name": "Finances",
+      "name": "Finances"
+    },
+    "expected": "Finances"
+  },
+  "test_14": {
+    "payload": {},
+    "expected": 401
+  },
+  "test_15": {
+    "payload": {},
+    "expected": 401
+  }
+}
